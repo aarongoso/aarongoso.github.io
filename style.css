@@ -1,0 +1,257 @@
+body { background-color: lightblue}
+
+body {background-image: url(fest.jpg);}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+
+#carouselExampleIndicators{
+margin-right: auto;
+margin-left: auto;
+	width: 400px;
+	height: 300px;
+}
+
+.myform{
+	padding: 20px;
+	border-radius: 25px;
+	border: 2px solid darkblue;
+	padding: 10px;
+	font-size: 20px;
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: white;
+}
+
+.navbar{
+  padding: 20px;
+  margin: 10px;
+	margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid darkblue;
+  padding: 10px;
+  font-size: 20px;
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+}
+
+img {
+	display: block;
+  margin: auto;
+}
+
+#wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header{
+	padding: 20px;
+	background-color:#B2F3EE;
+}
+
+
+.sidebar{
+	width: 20%;
+	float: left;
+	background-color: #61ADA7;
+	height: 500px;
+}
+
+@media screen and (max-width: 980px) {
+#pagewrap {
+width: 90%;
+}
+#content {
+width: 60%;
+background-color: olive;
+}
+#sidebar {
+width: 30%;
+background-color: teal;
+}
+}
+
+@media screen and (max-width: 700px) {
+#content {
+width: auto;
+float: none;
+background-color: orange;
+}
+#sidebar {
+width: auto;
+float: none;
+}
+}
+
+@media screen and (max-width: 480px) {
+#content {
+width: auto; float: none;
+background-color: yellow;
+}
+h1{
+font-size: 50px;
+}
+#sidebar {
+display: none;
+}
+}
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+  color: #333333;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:white;
+}
+.logo {
+  width:50px;
+  fill:white;
+  padding-right:15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: sticky;
+  width: 218%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% {
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+
+
+
+.game {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#textdiv {
+	background-color: white;
+	  padding: 20px;
+	  margin: 10px;
+	  border-radius: 25px;
+	  border: 2px solid darkblue;
+	  padding: 10px;
+	  font-size: 20px;
+		box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+	}
+
+	#linediv {
+		background-color: white;
+		  padding: 20px;
+		  margin: 10px;
+		  border-radius: 25px;
+		  border: 2px solid darkblue;
+		  padding: 10px;
+		  font-size: 20px;
+			box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+		}
+
+	#emailForm	{
+			background-color: white;
+			  padding: 20px;
+				text-align: center;
+			  margin: 10px;
+			  border-radius: 25px;
+			  border: 2px solid darkblue;
+			  padding: 10px;
+			  font-size: 20px;
+				box-shadow: 0 6px 12px 0 rgba(0,0,0,.2);
+			}

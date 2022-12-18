@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lineup</title>
+    <!-- Required links for Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- links to any CSS files that you create to be added BELOW the bootstrap link -->
+      <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <marquee> July 1st - 4th</marquee>
+    <marquee direction="right"
+        behavior="alternate"
+        style="color:BLue SOLID">
+        FunFest 2023 Five, Four, Three, Two, FUN!
+    </marquee>
+
+    <div class="col-sm-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <img src="logo.png" width="60px" />
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page4.html">Tickets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page3.html">Lineup</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page2.html">Information</a>
+      </li>
+  
+    </ul>
+    </div>
+    </nav>
+    </div>
+
+<div id="linediv" class="">
+
+    <h1> Click images to show the name! </h1>
+
+    <script type="text/javascript">
+                function showText1() {
+                    document.getElementById("text1").style.display = "block";
+                }
+                function showText2() {
+                    document.getElementById("text2").style.display = "block";
+                }
+                function showText3() {
+                    document.getElementById("text3").style.display = "block";
+                }
+                function showText4() {
+                    document.getElementById("text4").style.display = "block";
+                }
+
+            </script>
+
+    <div>
+                <img src="ariana.jpg" onclick="showText1()" />
+                <div id="text1" style="display:none;">
+                    Ariana Grande! Preforming as main event on the 1st!
+                </div>
+                <img src="eminem.jpg" onclick="showText2()" />
+                <div id="text2" style="display:none;">
+                    Eminem! Preforming as main event on the 2nd!
+                </div>
+                <img src="house.jpg" onclick="showText3()" />
+                <div id="text3" style="display:none;">
+                    Carl Cox! Preforming as main event on the 3rd!
+                </div>
+                <img src="techno.jpg" onclick="showText4()" />
+                <div id="text4" style="display:none;">
+                    Sonny Fedora! Preforming as main event on the 4th!
+                </div>
+</div>
+
+  </body>
+</html>

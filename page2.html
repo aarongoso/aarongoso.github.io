@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Information page</title>
+    <!-- Required links for Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- links to any CSS files that you create to be added BELOW the bootstrap link -->
+      <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+<marquee> July 1st - 4th</marquee>
+<marquee direction="right"
+    behavior="alternate"
+    style="color:BLue SOLID">
+    FunFest 2023 Five, Four, Three, Two, FUN!
+</marquee>
+
+<div class="col-sm-12">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#"></a>
+<img src="logo.png" width="60px" />
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+  <li class="nav-item active">
+    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="page4.html">Tickets</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="page3.html">Lineup</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="page2.html">Information</a>
+  </li>
+</ul>
+</div>
+</nav>
+</div>
+
+<div id="textdiv" class="">
+
+<h1>- WHAT TO AND NOT TO BRING -</h1>
+
+<p>Please allow plenty of time to get into the event, and for festival entry procedures, ticket checks and searches.
+There is no re-admission for day ticket holders.
+The wristband exchange is only for people with 2-day or 3-day tickets. Wristbands removed from the wrist or
+tampered with in any way will be deemed invalid and will not be replaced
+Note that the concert may be recorded for visual and audio broadcasting.
+• Mobile Phone
+• Good footwear
+• An empty plastic reusable water bottle, to fill up from the free drinking water points on site. Metal reusable bottles
+are not permitted on site.
+• Medical Information; details of your allergies or medical conditions and any medications that you need (bring the
+official prescription or a letter from your doctor). Please tell your friends if you have any medical conditions or
+allergies.</p>
+
+<h2>- BORING LEGAL STUFF (T&C'S) -</h2>
+
+<p>These Terms and Conditions (T&Cs) incorporate, and should be read together with, any Vendor’s and/or Agent’s
+T&Cs or regulations, which you can obtain from the point of purchase from the Official Ticket Agent.
+We reserve the right to implement restrictions/conditions before and during the Event to ensure it is safe. You must
+comply with any and all instructions given to you by Event staff and stewards and you may be evicted without a
+refund if you fail to comply.
+Purchasing a ticket or accepting a guest ticket for this Event constitutes your acceptance of these T&C’s.Tickets are
+for the Event and any billed Artists and attractions may be subject to change.
+No trading or promotional activities are allowed within the venue without Our prior consent. Goods using unauthorised
+Event logos will be confiscated.
+By entering the site, you give your express consent to your actual/ simulated likeness to be included for no fee within
+any audio or visual recording to be used in any media for any purpose at any time, including purpose at any time,
+including CCTV, filming by An Garda Síochána or security staff and/or for marketing.
+These T&Cs are subject to change from time to time in Our sole discretion and We will notify you by posting the
+amended T&CS to the Event website.
+We shall have no liability for any loss, injury, illness or damage to any person or property sustained at the Event
+howsoever caused (including by Us and Our agents) in any circumstances unless caused as a direct result of Our
+negligence and that which cannot by law be excluded or limited. Any personal property brought to the Event is at your
+own risk.</p>
+
+<h3>Email us for more information</h3>
+</div>
+
+<form name="emailForm" id="emailForm" action="submit.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="name" maxlength="100" /><br>
+    <label for="email">Email address:</label><br>
+    <input type="email" name="email" id="email" maxlength="200" /><br>
+    <label for="message">Message:</label><br>
+    <textarea name="message" id="message" rows="5" cols="50" maxlength="1000"></textarea><br>
+    <input type="submit" value="Submit" />
+</form>
+  </body>
+</html>
